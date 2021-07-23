@@ -1,0 +1,20 @@
+Instalar Django
+python -m pip install django
+
+Versión Django
+django-admin version
+
+Iniciar Django
+django-admin startproject <Nombre>
+
+Iniciar el servidor virtual de Django
+python manage.py runserver
+
+Crear archivos para iniciar una app web
+python manage.py startapp webapp
+
+Inicializar Postgrest desde Django
+python manage.py migrate
+
+Generar una tabla en Postgres desde Django
+python manage.py sqlmigrate personas 0001

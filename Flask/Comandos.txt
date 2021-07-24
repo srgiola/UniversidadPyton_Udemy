@@ -1,0 +1,22 @@
+Documentación Flask --> https://flask.palletsprojects.com/en/1.1.x/
+
+Documentación Jinja --> https://jinja.palletsprojects.com/en/2.11.x/
+
+Puerto Flask --> 5000
+
+Instalar Flask
+python -m pip install flask
+
+Iniciar Flask
+flask run
+
+Flask en modo Desarrollo
+set FLASK_APP=<file name>.py
+set FLASK_ENV=development
+
+Flask en modo Produccion
+set FLASK_APP=<file name>.py
+set FLASK_ENV=production
+
+
+

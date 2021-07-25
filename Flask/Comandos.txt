@@ -7,6 +7,12 @@ Puerto Flask --> 5000
 Instalar Flask
 python -m pip install flask
 
+Instalar SQLAlchemy
+python -m pip install flask-sqlalchemy
+
+Migrar datos de SQLAlchemy a Flask
+python -m pip install flask-migrate
+
 Iniciar Flask
 flask run
 
@@ -17,6 +23,7 @@ set FLASK_ENV=development
 Flask en modo Produccion
 set FLASK_APP=<file name>.py
 set FLASK_ENV=production
+
 
 
 

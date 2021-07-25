@@ -24,6 +24,17 @@ Flask en modo Produccion
 set FLASK_APP=<file name>.py
 set FLASK_ENV=production
 
+Crear carpeta de Migraciones a BD
+flask db init
 
+Crear archivos de Migración a BD
+flask db migrate
 
+Guarda cambios en la BD
+flask db upgrate
 
+Verifica que todas las migraciones esten al dia
+flask db stamp_head
+
+Agregar forms predifinidos en Flask
+python -m pip install flask-wtf
